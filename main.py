@@ -1,10 +1,10 @@
-from globals import tg, updater, dispatcher
+from globals import updater, dispatcher
 from telegram import Update
 from telegram.ext import CommandHandler, CallbackContext, MessageHandler, Filters
 from src.processing import infer_intent, reply_to_intent
 
 
-def start(update: Update, context: CallbackContext) -> None:
+def start(update: Update, _: CallbackContext) -> None:
     update.message.reply_text("Hi, I'm bot that can help you find things to do in Moscow!")
 
 
@@ -19,10 +19,6 @@ def message_handler(update: Update, _: CallbackContext) -> None:
 
 
 def main():
-    from src.load_replies import load_replies
-
-    print(load_replies())
-
     dispatcher.add_handler(CommandHandler("start", start))
     dispatcher.add_handler(CommandHandler("help", help_handler))
 
