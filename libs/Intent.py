@@ -8,3 +8,4 @@ class Intent(Enum):
     PARKS = 3
     RESTAURANTS = 4
     BARS = 5
+    THANKS = 6

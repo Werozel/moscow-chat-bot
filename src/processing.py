@@ -13,8 +13,6 @@ def infer_intent(request: str) -> Intent:
     tf_idfs = idfs.fit_transform(doc_term_matrix)
     request_vec = cv.transform([request])
     results = cosine_similarity(tf_idfs, request_vec).reshape((-1,))
-    for i in results.argsort()[:-11:-1]:
-        print(df.iloc[i, 0], df.iloc[i, 1])
     i = results.argsort()[:-11:-1][0]
     intent_int = df.iloc[i, 0]
     print(f"{request=}\nbest match={df.iloc[i, 1]}")
