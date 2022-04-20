@@ -15,7 +15,7 @@ def help_handler(update: Update, _: CallbackContext) -> None:
 def message_handler(update: Update, _: CallbackContext) -> None:
     intent = infer_intent(update.message.text)
     reply_text = reply_to_intent(intent)
-    update.message.reply_text(reply_text)
+    update.message.reply_markdown_v2(reply_text)
 
 
 def main():
