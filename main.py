@@ -1,6 +1,7 @@
 from globals import tg, updater, dispatcher
 from telegram import Update
 from telegram.ext import CommandHandler, CallbackContext, MessageHandler, Filters
+from src.processing import infer_intent, reply_to_intent
 
 
 def start(update: Update, context: CallbackContext) -> None:
@@ -12,14 +13,20 @@ def help_handler(update: Update, _: CallbackContext) -> None:
 
 
 def message_handler(update: Update, _: CallbackContext) -> None:
-    pass
+    intent = infer_intent(update.message.text)
+    reply_text = reply_to_intent(intent)
+    update.message.reply_text(reply_text)
 
 
 def main():
+    from src.load_replies import load_replies
+
+    print(load_replies())
+
     dispatcher.add_handler(CommandHandler("start", start))
     dispatcher.add_handler(CommandHandler("help", help_handler))
 
-    dispatcher.add_handler(MessageHandler(Filters.text & ~Filters.command, ))
+    dispatcher.add_handler(MessageHandler(Filters.text & ~Filters.command, message_handler))
 
     updater.start_polling()
     updater.idle()

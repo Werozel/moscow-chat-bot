@@ -1,0 +1,137 @@
+intent,request
+
+1,Hello how are you doing today?
+1,How are you?
+1,How's your day going?
+1,What's up?
+1,What's new?
+1,What's going on?
+1,How's everything?
+1,How's your week going?
+1,What have you been up to?
+1,How's your day?
+1,Good morning!
+1,Good afternoon!
+1,Good evening!
+1,Is everything alright?
+1,How are things?
+1,How're you holding up?
+1,Are you doing well?
+1,You okay?
+1,You good?
+2,What are some popular tourist attractions in Moscow?
+2,What are some of the best museums in Moscow?
+2,What are some of the most popular historical sites in Moscow?
+2,What are some of the best things to see and do in Moscow?
+2,What are some of the best places to visit in Moscow?
+2,What are some of the most popular tourist attractions in Moscow?
+2,What are some of the best museums in Moscow?
+2,What are some popular tourist attractions in the city?
+2,What are some must-see places in the city?
+2,What are some of the most popular tourist activities in the city?
+2,What are some of the most popular museums in the city?
+2,What are some of the most popular historical sites in the city?
+2,What are some of the most popular vacation rentals in the city?
+2,What are some of the most popular things to do in the city on a rainy day?
+2,What are some of the most popular things to do in the city on a sunny day?
+2,What are some of the most popular annual events in the city?
+2,What are some of the most popular places to take pictures in the city?
+3,What are the most popular parks in Moscow?
+3,What are the best parks for picnics?
+3,What are the best parks for walking?
+3,What are the best parks for children?
+3,What are the best parks for sports?
+3,What are the best parks for relaxation?
+3,What are the best parks for sightseeing?
+3,What are the best parks for photography?
+3,What are the best parks for bird watching?
+3,What are the best parks for dogs?
+3,What are the best parks for nature lovers?
+3,What are the best parks for history buffs?
+3,What are the best parks for couples?
+3,What are the best parks for families?
+3,What are the best parks for groups?
+3,What are the best parks for tourists?
+3,What are the best parks for locals?
+3,What are the best parks for all seasons?
+3,What are the best parks for special occasions?
+3,What is your favorite city park?
+4,What are some good restaurants in Moscow?
+4,What are some of your favorite restaurants in Moscow?
+4,What are some of the best places to eat in Moscow?
+4,What are some of the most popular restaurants in Moscow?
+4,What are some of the best rated restaurants in Moscow?
+4,What are some of the most highly rated restaurants in Moscow?
+4,What are some of the most recommended restaurants in Moscow?
+4,What are some of the most popular tourist restaurants in Moscow?
+4,What are some of the most visited restaurants in Moscow?
+4,What are some of the most popular local restaurants in Moscow?
+4,What are some of the best hidden gem restaurants in Moscow?
+4,What are some of the best kept secret restaurants in Moscow?
+4,What are some of the best off the beaten path restaurants in Moscow?
+4,What are some of the best local hole in the wall restaurants in Moscow?
+4,What are some of the best dive restaurants in Moscow?
+4,What are some of the best cheap eats restaurants in Moscow?
+4,What are some of the best value restaurants in Moscow?
+4,What are some of the best budget restaurants in Moscow?
+4,What are some of the best mid range restaurants in Moscow?
+4,What are some of the best high end restaurants in Moscow?
+4,What are your favorite city restaurants?
+4,What are the best city restaurants?
+4,What are the most popular city restaurants?
+4,What are the most expensive city restaurants?
+4,What are the best city restaurants for families?
+4,What are the best city restaurants for a romantic night out?
+4,What are the best city restaurants for large groups?
+4,What are the best city restaurants for a quick bite?
+4,What are the best city restaurants for vegetarians?
+4,What are the best city restaurants for vegans?
+4,What are the best city restaurants for gluten-free diners?
+4,What are the best city restaurants for those with food allergies?
+4,What are the best city restaurants for kids?
+4,What are the best city restaurants for adults?
+4,What are the best city restaurants for seniors?
+4,What are the best city restaurants for a special occasion?
+4,What are the best city restaurants for a date night?
+4,What are the best city restaurants for a business lunch?
+4,What are the best city restaurants for a leisurely meal?
+5,What are some popular bars in Moscow?
+5,What are some bars that are popular with locals in Moscow?
+5,What are some bars that are popular with tourists in Moscow?
+5,What are some of the best bars in Moscow?
+5,What are some of the most popular bars in Moscow?
+5,What are some of the most popular nightclubs in Moscow?
+5,What are some of the best nightclubs in Moscow?
+5,What are some of the most popular places to go out in Moscow?
+5,What are some of the best places to drink in Moscow?
+5,What are some of the most popular places to party in Moscow?
+5,What are some of the best places to dance in Moscow?
+5,What are some of the best places to listen to live music in Moscow?
+5,What are some of the best places to go for a night out in Moscow?
+5,What are some of the best places to go clubbing in Moscow?
+5,What are some of the best places to go for a night of dancing in Moscow?
+5,What are some of the best places to go for a night of live music in Moscow?
+5,What are some of the best places to drink and dance in Moscow?
+5,What are some of the best places to drink and listen to live music in Moscow?
+5,What are some of the best places to party and dance in Moscow?
+5,What are some of the best places to party and listen to live music in Moscow?
+5,What is your favorite city bar?
+5,What city bars do you frequent?
+5,What are some of your favorite bars in the city?
+5,What are the best bars in the city?
+5,What are the most popular city bars?
+5,What are the most crowded city bars?
+5,What are the most well-known city bars?
+5,What city bars are the most unique?
+5,What city bars offer the best happy hour specials?
+5,What city bars have the best live music?
+5,What city bars have the best views?
+5,What city bars have the best drink specials?
+5,What city bars have the best food?
+5,What city bars are the most kid-friendly?
+5,What city bars are the most pet-friendly?
+5,What city bars have the best pool tables?
+5,What city bars have the best dart boards?
+5,What city bars have the best jukeboxes?
+5,What city bars are open the latest?
+5,What city bars never close?
