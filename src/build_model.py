@@ -15,8 +15,6 @@ class VectorizerProvider:
 
 def load_train_data() -> pd.DataFrame:
     return pd.read_csv("intent_train.csv")
-    # df['request_tokenized'] = pd.Series(df['request']).map(tokenize_and_stem)
-    # return df
 
 
 def build_model():
