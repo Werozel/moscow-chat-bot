@@ -21,8 +21,6 @@ def message_handler(update: Update, _: CallbackContext) -> None:
 
 
 def main():
-    logging.basicConfig(level=logging.DEBUG)
-
     dispatcher.add_handler(CommandHandler("start", start))
     dispatcher.add_handler(CommandHandler("help", help_handler))
 
